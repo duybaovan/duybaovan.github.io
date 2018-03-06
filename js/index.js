@@ -2,10 +2,11 @@
 document.addEventListener('DOMContentLoaded', function() {
   var typed = new Typed('#typed', {
     stringsElement: '#typed-strings',
-    typeSpeed: 15,
+    typeSpeed: 55,
     backSpeed: 20,
     startDelay: 1000,
-    loop: true,
+    loop: false,
+    showCursor: false,
     loopCount: Infinity,
     onComplete: function(self) { prettyLog('onComplete ' + self) },
     preStringTyped: function(pos, self) { prettyLog('preStringTyped ' + pos + ' ' + self); },

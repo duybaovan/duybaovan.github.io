@@ -1,23 +1,28 @@
 @charset "UTF-8";
-.section{
+.container{
    min-width: 50%; 
    text-align: center;
    position: relative;
    font-family: 'HelveticaNeue-Medium';
   padding-top:10%;
   font-size:2em;
+    position: static;
+}
+
+
   
 }
-.section h1{
-   color:#181818;
+.container h1{
+  color:#181818;
   padding-top:15px;
   font-size:2em;
 }
-.section a {
+.container a {
 text-decoration: none;
   font-weight:600;
   color:#181818;
   font-size:0.8em;
   margin-right: 40px;
+  position: relative;
 
 
