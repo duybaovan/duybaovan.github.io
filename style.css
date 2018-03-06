@@ -3,7 +3,8 @@ html {
   font-family: 'Signika', sans-serif;
 }
 
-section{
+.section{
 	font-size: 6em;
 	text-align: center;
+	color: blue;
 }
