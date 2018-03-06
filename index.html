@@ -2,6 +2,39 @@
 <html lang="en" >
 <head>
 	<title>Bao Van personal website</title>
-	<link rel="stylesheet" href="style.css">
+	
+
+	<!-- Font awesome -->
+	<link rel="stylesheet" href="bower_components/web-fonts-with-css/css/fontawesome-all.min.css" />
+	
+	<!-- Full-page js -->
+	<link rel="stylesheet" type="text/css" src="jquery.fullPage.css"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript"> 
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+			sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke'],
+			css3:true
+		});
+	});
+	</script>
+	
+
+
+	<!-- My CSS File-->
+	<link rel="stylesheet" href="style.css">	
+
 </head>
+
+<body>
+	<div id="fullpage">
+	<div class="section">Some section</div>
+	<div class="section">Some section</div>
+	<div class="section">Some section</div>
+	<div class="section">Some section</div>
+	</div>
+
+</body>
+
 </html>
