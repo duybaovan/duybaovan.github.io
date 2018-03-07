@@ -32,7 +32,7 @@
   font-size:2em;
   position: absolute;
   left: 1.5%;
-  top: 400px;
+  top: 65%;
   text-align:center;
   z-index:1;
   opacity: 1;
@@ -40,6 +40,7 @@
 }
 .headline{
   max-width:400px;
+  max-height: 400px;
   color: white;
    min-width: 100%; 
    text-align: center;
