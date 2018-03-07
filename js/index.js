@@ -2,8 +2,8 @@
 document.addEventListener('DOMContentLoaded', function() {
   var typed = new Typed('#typed', {
     stringsElement: '#typed-strings',
-    typeSpeed: 35,
-    backSpeed: 20,
+    typeSpeed: 43,
+    backSpeed: 15,
     startDelay: 1200,
     loop: false,
     showCursor:false,
@@ -38,7 +38,6 @@ function toggleLoop(typed) {
   }
 }
 
-//Extra code here
 var Canvas = document.getElementById('canvas');
 var ctx = Canvas.getContext('2d');
 
